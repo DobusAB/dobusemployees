@@ -15,7 +15,7 @@ const Skills = (props) => {
                 <div className="tags">
                     {
                         props.skills.map(function(value, index){
-                            return <span key={index} className="tag is-light is-medium">{value}</span>
+                            return <span key={index} className="tag is-light is-large">{value}</span>
                         })
                     }
                 </div>

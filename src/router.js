@@ -4,6 +4,8 @@ import App from './Scenes/Layout';
 import Tim from './Scenes/Tim';
 import Johan from './Scenes/Johan';
 import Viman from './Scenes/Viman';
+import Alice from './Scenes/Alice';
+import Tobias from './Scenes/Tobias';
 
 
 export const routes = (
@@ -13,6 +15,8 @@ export const routes = (
 			<Route path="/tim" component={Tim}/>
 			<Route path="/johan" component={Johan} />
 			<Route path="/viman" component={Viman} />
+			<Route path="/alice" component={Alice} />
+			<Route path="/tobias" component={Tobias} />
 
 		</Route>
 	</Router>

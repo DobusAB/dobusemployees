@@ -3,6 +3,8 @@ $grey: #C3C3C3;
 $dark-grey: #757575;
 $font: "brandon-grotesque";
 $green:  rgb(70, 197, 173);
+$purple: rgb(176, 118, 185);
+$pink: rgb(254, 116, 179);
 html, body {
     font-family: $font, Arial, Helvetica, sans-serif !important;
 }
@@ -32,6 +34,14 @@ p {
             color: $green !important;
             border-bottom: 3px solid $green;
         }
+        &.comunication {
+            color: $purple !important;
+            border-bottom: 3px solid $purple;
+        }
+        &.web {
+            color: $pink !important;
+            border-bottom: 3px solid $pink;
+        }
     }
     
     &:first-child {
@@ -46,6 +56,14 @@ p {
         &.developer {
             color: $green !important;
             border-bottom: 3px solid $green;
+        }
+        &.comunication {
+            color: $purple !important;
+            border-bottom: 3px solid $purple;
+        }
+        &.web {
+            color: $pink !important;
+            border-bottom: 3px solid $pink;
         }
         
     }
@@ -66,6 +84,12 @@ p {
             &.developer {
                 color: $green;
             }
+            &.comunication {
+                color: $purple !important;
+            }
+            &.web {
+                color: $pink !important;
+            }
         }
         .citat {
             color: $grey;
@@ -84,6 +108,12 @@ p {
                 &.developer {
                     color: $green;
                 }
+                &.comunication {
+                    color: $purple !important;
+                }
+                &.web {
+                    color: $pink !important;
+                }
             }
         }
     }
@@ -99,6 +129,12 @@ p {
             }
             &.developer {
                 color: $green;
+            }
+            &.comunication {
+                color: $purple !important;
+            }
+            &.web {
+                color: $pink !important;
             }
         }
         p {
@@ -125,6 +161,12 @@ p {
         &.developer {
             color: $green;
         }
+        &.comunication {
+            color: $purple !important;
+        }
+        &.web {
+            color: $pink !important;
+        }
     }
     h4 {
         color: #BFBFBF;
@@ -147,6 +189,12 @@ p {
     }
     &.developer {
         background: $green;
+    }
+    &.comunication {
+        background: $purple;
+    }
+    &.web {
+        background: $pink !important;
     }
    
     margin-top:6rem;
