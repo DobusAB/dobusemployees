@@ -1,0 +1,176 @@
+$orange: #F07C5B;
+$grey: #C3C3C3;
+$dark-grey: #757575;
+$font: "brandon-grotesque";
+$green:  rgb(70, 197, 173);
+html, body {
+    font-family: $font, Arial, Helvetica, sans-serif !important;
+}
+
+p {
+    line-height: 2.5rem;
+    font-size:1.5rem !important;
+}
+
+.nav {
+    margin-top:2rem;
+}
+.nav-item {
+    
+    color: $grey !important;
+    font-weight: 800;
+    margin-left:4rem;
+    font-size:1.2rem !important;
+
+    &.active {
+
+        &.ux {
+             color: $orange !important;
+             border-bottom: 3px solid $orange;
+        }
+        &.developer {
+            color: $green !important;
+            border-bottom: 3px solid $green;
+        }
+    }
+    
+    &:first-child {
+        margin-left:0;
+    }
+    
+    &:hover {
+        &.ux {
+            color: $orange !important;
+            border-bottom: 3px solid $orange;
+        }
+        &.developer {
+            color: $green !important;
+            border-bottom: 3px solid $green;
+        }
+        
+    }
+}
+
+.emplooyes {
+    margin-top:4rem;
+    
+    .memory {
+        h3 {
+            
+            font-weight: bold;
+            font-size: 1.6rem;
+
+            &.ux {
+                color: $orange;
+            }
+            &.developer {
+                color: $green;
+            }
+        }
+        .citat {
+            color: $grey;
+            font-size: 2.8rem;
+        }
+        .citat--description {
+            color:#A0A0A0;
+            margin-left: 2rem;
+            font-size: 1.4rem;
+            .highlighted {
+                
+                font-weight: bold;
+                &.ux {
+                    color: $orange;
+                }
+                &.developer {
+                    color: $green;
+                }
+            }
+        }
+    }
+    .whatweedoo {
+        margin-bottom:10rem;
+        h2 {
+            
+            font-weight: bold;
+            font-size:2rem;
+
+            &.ux {
+                color: $orange;
+            }
+            &.developer {
+                color: $green;
+            }
+        }
+        p {
+            color: $dark-grey;
+        }
+        .experience {
+            margin-top:3rem;
+        }
+    }
+}
+.skills {
+    margin-top:10rem;
+    margin-bottom:10rem;
+
+    h2 {
+        font-size:3rem;
+    }
+    h3 {
+        font-size: 3rem;
+        
+        &.ux {
+            color: $orange;
+        }
+        &.developer {
+            color: $green;
+        }
+    }
+    h4 {
+        color: #BFBFBF;
+        font-weight: bold;
+    }
+    .tags {
+        width: 35rem;
+        span {
+            margin-left:1rem;
+            margin-top:1rem;
+            &:first-child {
+                margin-left:0;
+            }
+        }
+    }
+}
+.first-memories {
+    &.ux {
+         background: $orange;
+    }
+    &.developer {
+        background: $green;
+    }
+   
+    margin-top:6rem;
+    padding-top:5rem;
+    padding-bottom:5rem;
+    h2 {
+        color :#fff;
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+    p {
+        color: #fff;
+        font-size: 1.2rem;
+    }
+    .texts {
+        margin-left:2rem;
+        h3 {
+            color:#fff;
+            font-size:1.3rem;
+            display: block;
+        }
+         &.strong {
+            font-weight: bold;
+        }
+    }
+    
+}
