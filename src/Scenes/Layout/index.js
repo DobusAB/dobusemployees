@@ -17,7 +17,7 @@ class App extends Component {
               <div className="nav-left">
                 <Link to="/tim" className="nav-item ux" activeClassName="active ux"> TIM </Link>
                 <Link to="/johan" className="nav-item developer" activeClassName="active developer"> JOHAN </Link>
-                <Link to="/viman" className="nav-item developer" activeClassName="active developer"> Truong Vi Man </Link>
+                <Link to="/viman" className="nav-item developer" activeClassName="active developer"> TRUONG VI MAN </Link>
               </div>
             </div>
           </div>

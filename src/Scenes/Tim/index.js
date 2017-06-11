@@ -17,6 +17,8 @@ class Tim extends Component {
         let shortMemory = '”När jag bodde hemma var det alltid jag som fick sköta gräsklippningen, något som inte alltid var så uppskattat. Men sen kom Automower.”';
         let longMemory = '”När jag bodde hemma var det alltid jag som fick sköta gräsklippningen, något som inte alltid var så uppskattat. Men sen kom Automower. Denna lilla robotgräsklippare förenklade mitt liv något sanslöst och den kommer därför alltid ha en säkrad plats i hjärtat."';
         let experienceyear = "(2013—2017)";
+
+        const skills = ["Javascript", "Swift 3.0", "Sketch"];
         return (
             <div className="emplooyes">
                 <div className="container">
@@ -28,6 +30,7 @@ class Tim extends Component {
                             role={role}
                             roleclass={roleclass}
                             image={image}
+                            skills={skills}
                     />
                     <What ido={ido} 
                         how={how}

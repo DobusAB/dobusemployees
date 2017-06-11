@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 const Skills = (props) => {
-
+    console.log(props.skills);
     return (
         <div className="skills">
             <div className="columns">
@@ -13,19 +13,11 @@ const Skills = (props) => {
                 <h3 className={props.roleclass}>{props.role}</h3>
                 <h4>Mina huvudskills</h4>
                 <div className="tags">
-                    <span className="tag is-light is-medium">Javascript</span>
-                    <span className="tag is-light is-medium">Light</span>
-                    <span className="tag is-light is-medium">Light</span>
-                    <span className="tag is-light is-medium">Light</span>
-                    <span className="tag is-light is-medium">Light</span>
-                    <span className="tag is-light is-medium">Light</span>
-                    <span className="tag is-light is-medium">Light</span>
-                    <span className="tag is-light is-medium">Light</span>
-                    <span className="tag is-light is-medium">Light</span>
-                    <span className="tag is-light is-medium">Light</span>
-                    <span className="tag is-light is-medium">Light</span>
-                    <span className="tag is-light is-medium">Light</span>
-                    <span className="tag is-light is-medium">Light</span>
+                    {
+                        props.skills.map(function(value, index){
+                            return <span key={index} className="tag is-light is-medium">{value}</span>
+                        })
+                    }
                 </div>
             </div>
         </div>
