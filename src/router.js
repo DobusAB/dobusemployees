@@ -6,12 +6,13 @@ import Johan from './Scenes/Johan';
 import Viman from './Scenes/Viman';
 import Alice from './Scenes/Alice';
 import Tobias from './Scenes/Tobias';
+import Dobus from './Scenes/Dobus';
 
 
 export const routes = (
 	<Router history={browserHistory}>
 		<Route component={App}>
-			<Route path="/" component={Tim} />
+			<Route path="/" component={Dobus} />
 			<Route path="/tim" component={Tim}/>
 			<Route path="/johan" component={Johan} />
 			<Route path="/viman" component={Viman} />

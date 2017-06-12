@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 
 
 const Memories = (props) => {
-
-    console.log(props);
     return (
         <div className="memory">
             <div className="columns">
