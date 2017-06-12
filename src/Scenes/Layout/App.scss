@@ -5,6 +5,7 @@ $font: "brandon-grotesque";
 $green:  rgb(70, 197, 173);
 $purple: rgb(176, 118, 185);
 $pink: rgb(254, 116, 179);
+$yellow: #ffc400;
 html, body {
     font-family: $font, Arial, Helvetica, sans-serif !important;
 }
@@ -42,6 +43,10 @@ p {
             color: $pink !important;
             border-bottom: 3px solid $pink;
         }
+        &.dobuss {
+            color: $yellow !important;
+            border-bottom: 3px solid $yellow;
+        }
     }
     
     &:first-child {
@@ -65,13 +70,16 @@ p {
             color: $pink !important;
             border-bottom: 3px solid $pink;
         }
+        &.dobuss {
+            color: $yellow !important;
+            border-bottom: 3px solid $yellow;
+        }
         
     }
 }
 
 .emplooyes {
-    margin-top:4rem;
-    
+    margin: -3rem;
     .memory {
         h3 {
             
@@ -89,6 +97,9 @@ p {
             }
             &.web {
                 color: $pink !important;
+            }
+            &.web {
+                color: $yellow !important;
             }
         }
         .citat {
@@ -110,6 +121,9 @@ p {
                 }
                 &.comunication {
                     color: $purple !important;
+                }
+                &.web {
+                    color: $pink !important;
                 }
                 &.web {
                     color: $pink !important;
@@ -136,6 +150,9 @@ p {
             &.web {
                 color: $pink !important;
             }
+            &.web {
+                color: $pink !important;
+            }
         }
         p {
             color: $dark-grey;
@@ -146,7 +163,6 @@ p {
     }
 }
 .skills {
-    margin-top:10rem;
     margin-bottom:10rem;
 
     h2 {
@@ -163,6 +179,9 @@ p {
         }
         &.comunication {
             color: $purple !important;
+        }
+        &.web {
+            color: $pink !important;
         }
         &.web {
             color: $pink !important;
@@ -199,6 +218,9 @@ p {
     }
     &.web {
         background: $pink !important;
+    }
+    &.web {
+        color: $yellow !important;
     }
    
     margin-top:6rem;

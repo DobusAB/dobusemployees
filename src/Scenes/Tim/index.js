@@ -21,11 +21,18 @@ class Tim extends Component {
         const skills = ["Javascript", "Swift 3.0", "Sketch", "Sketch", "Sketch", "Sketch", "Sketch",];
         return (
             <div className="emplooyes">
+                <div className="hero is-fullheight">
+                    <div className="hero-body">
+                        <div className="container">
+                
+                            <Memories memory={shortMemory} 
+                                    image={image}
+                                    roleclass={roleclass}
+                            />
+                        </div>
+                    </div>
+                </div>
                 <div className="container">
-                    <Memories memory={shortMemory} 
-                            image={image}
-                            roleclass={roleclass}
-                     />
                     <Skills name={name} 
                             role={role}
                             roleclass={roleclass}
