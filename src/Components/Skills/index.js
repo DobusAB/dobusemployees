@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 const Skills = (props) => {
     console.log(props.skills);
     return (
-        <div className="skills">
+        <div className="skills  fade-in four ">
             <div className="columns">
                 <div className="column is-4">
                 <img src={props.image} />
@@ -15,7 +15,7 @@ const Skills = (props) => {
                 <div className="tags">
                     {
                         props.skills.map(function(value, index){
-                            return <span key={index} className="tag is-light is-large">{value}</span>
+                            return <span key={index} className="strong tag is-light is-large">{value}</span>
                         })
                     }
                 </div>

@@ -10,7 +10,7 @@ class Tim extends Component {
         let roleclass = "ux";
         let image = "/tim.png";
         let name = "Tim Gabrielsson";
-        let role = "UX-designer på Dobus";
+        let role = "Interaktionsdesigner på Dobus";
         let how = "Den stora delen av kunskapen ligger inom ramarna av interaktionsdesign, men på senare tid har det även tillkommit mycket fokus på programmering (och främst iOS-utveckling).";
         let ido = "Programmerande interaktionsdesigner som ägnar mycket av sin tid till att ta sig an sidoprojekt och annat smått och gott. Trivs bäst bland pappersark och skisspennor, men räds inte att ta mig an Xcode och knacka ihop lite iOS-appar.";
         let experience = "Programmerande interaktionsdesigner som ägnar mycket av sin tid till att ta sig an sidoprojekt och annat smått och gott. Trivs bäst bland pappersark och skisspennor, men räds inte att ta mig an Xcode och knacka ihop lite iOS-appar.";

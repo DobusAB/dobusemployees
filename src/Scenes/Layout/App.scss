@@ -171,12 +171,16 @@ p {
     h4 {
         color: #BFBFBF;
         font-weight: bold;
+        font-size: 24px;
+        margin-top: 2em;
     }
     .tags {
         width: 35rem;
         span {
             margin-left:1rem;
             margin-top:1rem;
+            color: #BFBFBF;
+            background: linear-gradient( 0deg, #F5F5F5, #FBFBFB );
             &:first-child {
                 margin-left:0;
             }
@@ -222,3 +226,57 @@ p {
     }
     
 }
+
+.strong {
+    font-weight: bold;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+ 
+.fade-in.one {
+-webkit-animation-delay: 0.5s;
+-moz-animation-delay: 0.5s;
+animation-delay: 0.5s;
+}
+ 
+.fade-in.two {
+-webkit-animation-delay: 0.9s;
+-moz-animation-delay: 0.9s;
+animation-delay: 0.9s;
+}
+ 
+.fade-in.three {
+-webkit-animation-delay: 1.3s;
+-moz-animation-delay: 1.3s;
+animation-delay: 1.3s;
+}
+
+.fade-in.four {
+-webkit-animation-delay: 1.7s;
+-moz-animation-delay: 1.7s;
+animation-delay: 1.7s;
+}
+
+.fade-in.five {
+-webkit-animation-delay: 2.1s;
+-moz-animation-delay: 2.1s;
+animation-delay: 2.1s;
+}
+ 

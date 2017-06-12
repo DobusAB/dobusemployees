@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 const What = (props) => {
 
     return (
-        <div className="whatweedoo">
+        <div className="whatweedoo fade-in four ">
             <div className="columns">
             <div className="column is-6">
                 <h2 className={props.roleclass}>Vad gör jag?</h2>

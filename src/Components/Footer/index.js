@@ -5,7 +5,7 @@ const Footer = (props) => {
 
 
     return (
-        <div className={"first-memories " + props.roleclass}>
+        <div className={"first-memories fade-in four " + props.roleclass}>
             <div className="container">
                 <div className="columns">
                 <div className="column is-12">
