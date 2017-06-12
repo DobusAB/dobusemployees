@@ -19,10 +19,10 @@ $pink: rgb(254, 116, 179);
     .dobus-image {
         margin-top:4rem;
         img {
-            .grow { 
+            &.grow { 
                 transition: all .2s ease-in-out; 
             }
-            .grow:hover { 
+            &.grow:hover { 
                 transform: scale(1.5); 
             }
             &.site {
