@@ -26,8 +26,12 @@ class Dobus extends Component {
         return (
             <div>
                 <div className="dobus">
-                    <div className="container">
-                        <DobusImage />
+                    <div className="hero is-fullheight">
+                        <div className="hero-body content-image">
+                            <div className="container">
+                                <DobusImage />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="dobusdescription">

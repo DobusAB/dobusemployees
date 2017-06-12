@@ -4,8 +4,13 @@ $green:  rgb(70, 197, 173);
 $purple: rgb(176, 118, 185);
 $pink: rgb(254, 116, 179);
 
+.content-image {
+    margin-top: -3rem !important; 
+}
 .dobusdescription {
     background: $yellow;
+
+    
 
     h2 {
         color: #fff;
