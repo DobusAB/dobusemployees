@@ -11,12 +11,12 @@ class Tobias extends Component {
         let image = "/tobias.png";
         let name = "Tobias Nilsson";
         let role = "API & Apputvecklare på Dobus";
-        let how = "Den stora delen av kunskapen ligger inom ramarna av interaktionsdesign, men på senare tid har det även tillkommit mycket fokus på programmering (och främst iOS-utveckling).";
-        let ido = "Programmerande interaktionsdesigner som ägnar mycket av sin tid till att ta sig an sidoprojekt och annat smått och gott. Trivs bäst bland pappersark och skisspennor, men räds inte att ta mig an Xcode och knacka ihop lite iOS-appar.";
-        let experience = "Programmerande interaktionsdesigner som ägnar mycket av sin tid till att ta sig an sidoprojekt och annat smått och gott. Trivs bäst bland pappersark och skisspennor, men räds inte att ta mig an Xcode och knacka ihop lite iOS-appar.";
+        let how = "Att vara rastlös är det värsta jag vet och därför ser jag alltid till att jobba flitigt med programmeringen både inom webbutveckling och Android utveckling. När jag har ett problem framför mig är jag inte den som ger upp utan jag tar tjuren i hornen.";
+        let ido = "Bakom ridåerna finner ni mig då min utmärkande egenskap är backend-utveckling, då jag lägger mina vakna timmar till att bygga bra och skalbara API:er. Jag har även kunskaper för att kunna skapa Android appar.";
+        let experience = "Högskoleingenjör inom datateknik på Lunds Tekniska Högskola och Serveradministration i bla. Linux. Studerade även ett halvår i Kina som utbytesstudent då jag fick lära mig allt från kinesiska till en annan kultur. Jag har även varit med i landslaget i rugby.";
         let shortMemory = '”När jag bodde hemma var det alltid jag som fick sköta gräsklippningen, något som inte alltid var så uppskattat. Men sen kom Automower.”';
-        let longMemory = '”När jag bodde hemma var det alltid jag som fick sköta gräsklippningen, något som inte alltid var så uppskattat. Men sen kom Automower. Denna lilla robotgräsklippare förenklade mitt liv något sanslöst och den kommer därför alltid ha en säkrad plats i hjärtat."';
-        let experienceyear = "(2013—2017)";
+        let longMemory = '”读万卷书不如行万里路 [讀萬卷書不如行萬里路" ("Reading ten thousand books is not as useful as travelling ten thousand miles.")';
+        let experienceyear = "(2012—2017)";
 
         const skills = ["Javascript", "Swift 3.0", "Sketch"];
         return (

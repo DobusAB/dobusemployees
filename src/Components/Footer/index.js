@@ -9,7 +9,7 @@ const Footer = (props) => {
             <div className="container">
                 <div className="columns">
                 <div className="column is-12">
-                    <h2>Första minnet av Husqvarna</h2>
+                    <h2>Mitt livsmotto</h2>
                 </div>
                 </div>
                 <div className="columns">
