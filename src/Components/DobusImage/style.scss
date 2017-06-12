@@ -20,10 +20,10 @@ $pink: rgb(254, 116, 179);
         margin-top:4rem;
         img {
             &.grow { 
-                transition: all .2s ease-in-out; 
+                transition: all .4s ease-in-out; 
             }
             &.grow:hover { 
-                transform: scale(1.5); 
+                transform: scale(1.15);
             }
             &.site {
                 border-radius: 5px;

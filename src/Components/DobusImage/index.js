@@ -13,14 +13,14 @@ const DobusImage = () => {
         </div>
         <div className="dobus-image">
             <div className="columns has-text-centered">
-                <div className="column is-12 grow">
+                <div className="column is-12 fade-in three">
                     <img className="site grow"  src="/dobussite.png"/>
                 </div>
             </div>
             <div className="columns scrolldown">
                 <div className="column is-12">
                     <div className="has-text-centered">
-                        <div className="has-text-centered">
+                        <div className="has-text-centered fade-in five">
                             <img className=""  src="/mouseicon.svg"/>
                             <p>Scrolla ner</p>
                         </div>
