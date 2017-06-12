@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import DobusImage from '../../Components/DobusImage';
-import './style.scss';
 
 class Dobus extends Component {
 

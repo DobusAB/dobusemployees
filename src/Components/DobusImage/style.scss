@@ -1,0 +1,35 @@
+$yellow: #ffc400;
+$orange: #F07C5B;
+$green:  rgb(70, 197, 173);
+$purple: rgb(176, 118, 185);
+$pink: rgb(254, 116, 179);
+
+.dobus {
+    margin-top:5rem;
+    h2 {
+        background: -webkit-linear-gradient(left, $yellow ,$orange, $purple); /* For Safari 5.1 to 6.0 */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+    .dobus-image {
+        margin-top:4rem;
+        img {
+
+            &.site {
+                border-radius: 5px;
+                box-shadow: 0 2px 30px rgba(171, 171, 171, 0.5);
+            }
+            
+        }
+    }
+
+    .scrolldown {
+        margin-top:4rem;
+        p {
+             color:#A0A0A0;
+             font-size:1.5rem !important;
+        }
+    }
+}
