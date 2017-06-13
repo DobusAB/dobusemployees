@@ -14,7 +14,10 @@ const DobusImage = () => {
         <div className="dobus-image">
             <div className="columns has-text-centered">
                 <div className="column is-12 fade-in three">
-                    <img className="site grow"  src="/dobus-site-3.png"/>
+                    <div className="cont">
+                        <img className="site grow"  src="/dobus-site-3.png"/>
+                        <p><a href="https://dobus.se" target="_blank">Gå till hemsidan</a></p>
+                    </div>
                 </div>
             </div>
             <div className="columns scrolldown">

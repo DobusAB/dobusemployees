@@ -23,7 +23,8 @@ $pink: rgb(254, 116, 179);
     .dobus-image {
         margin-top:4rem;
 
-            img {
+            /* img {
+                z-index: 999 !important;
                 &.grow { 
                     transition: all .4s ease-in-out; 
                 }
@@ -33,6 +34,73 @@ $pink: rgb(254, 116, 179);
                 &.site {
                     border-radius: 5px;
                     box-shadow: 0 2px 30px rgba(171, 171, 171, 0.5);
+                }
+            } */ 
+            .cont {
+                transition: all .4s ease-in-out; 
+                img {
+                
+                    &.grow { 
+                        transition: all .4s ease-in-out; 
+                    }
+                    .grow:hover { 
+                        transform: scale(1.15);
+                    }
+                    &.site {
+                        border-radius: 5px;
+                        box-shadow: 0 2px 30px rgba(171, 171, 171, 0.5);
+                    }
+
+                    .grow:hover { 
+                        transform: scale(1.15);
+                    }
+                }
+                &:hover {
+                    transform: scale(1.15);
+                    p {
+                        opacity: 1;
+                    }
+                    a:after{
+                        width:50%;
+                    }
+                }
+                // overflow: hidden;
+                position: relative;
+                display: inline-block;
+                vertical-align: top;
+                width:300px;
+                height:189px;
+                
+                p {
+                    transition: all .4s ease-in-out;
+                    opacity: 0;
+                    position:absolute;
+                    left: 0; right: 0;
+                    top: 0; bottom: 0;
+                    width: 100%;
+                    height: 100% !important;
+                    display: table;
+
+                    a {
+                        display: table-cell;
+                        vertical-align: middle;
+                        position: relative;
+                        color:#000;
+                        font-weight: bold;
+
+                        &:after {
+                            transition: all .4s ease-in-out; 
+                            position: absolute;
+                            content: "";
+                            left: 0; right: 0;
+                            bottom: 40%;
+                            text-align: center;
+                            margin: auto;
+                            width: 0%;
+                            height: 4px;
+                            background: #000;
+                        }
+                    }
                 }
             }
         }
