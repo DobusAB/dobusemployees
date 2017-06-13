@@ -18,9 +18,9 @@ class App extends Component {
                 <Link to="/" className="nav-item dobuss" activeClassName="active dobuss"> DOBUS </Link>
                 <Link to="/tim" className="nav-item ux" activeClassName="active ux"> TIM </Link>
                 <Link to="/johan" className="nav-item developer" activeClassName="active developer"> JOHAN </Link>
-                <Link to="/viman" className="nav-item developer" activeClassName="active developer"> VI MAN </Link>
                 <Link to="/alice" className="nav-item comunication" activeClassName="active comunication"> ALICE </Link>
                 <Link to="/tobias" className="nav-item web" activeClassName="active web"> TOBIAS </Link>
+                <Link to="/viman" className="nav-item developer" activeClassName="active developer"> VI MAN </Link>
               </div>
             </div>
           </div>
