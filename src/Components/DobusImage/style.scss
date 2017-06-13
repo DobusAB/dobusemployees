@@ -20,13 +20,13 @@ $pink: rgb(254, 116, 179);
         margin-top:4rem;
         div .photoholder {
             //overflow: hidden;
-            position: relative;
-            display: inline-block;
-            vertical-align: top;
+            //position: relative;
+            //display: inline-block;
+            //vertical-align: top;
             &.inner-block {
-                position: absolute;
-                z-index: 9999;
-                display: inline-block;
+                //position: absolute;
+                //z-index: 9999;
+                //display: inline-block;
             }
             img {
                 &.grow { 

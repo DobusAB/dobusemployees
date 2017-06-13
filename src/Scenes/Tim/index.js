@@ -11,14 +11,14 @@ class Tim extends Component {
         let image = "/tim.png";
         let name = "Tim Gabrielsson";
         let role = "Interaktionsdesigner på Dobus";
-        let how = "Den stora delen av kunskapen ligger inom ramarna av interaktionsdesign, men på senare tid har det även tillkommit mycket fokus på programmering (och främst iOS-utveckling).";
+        let how = "Den stora delen av kunskapen ligger inom ramarna av interaktionsdesign, men på senare tid har det även tillkommit mycket fokus på programmering (och främst  då iOS-utveckling, som tidigare nämnt). Min uppgift i projekt brukar vara att leda våra så kallade Design sprints, utveckla koncept (hela vägen från snabba skisser till slutgiltiga, högdetaljerade koncept) och därefter sköta animationer och designspecifik programmering.";
         let ido = "Programmerande interaktionsdesigner som ägnar mycket av sin tid till att ta sig an sidoprojekt och annat smått och gott. Trivs bäst bland pappersark och skisspennor, men räds inte att ta mig an Xcode och knacka ihop lite iOS-appar.";
-        let experience = "Programmerande interaktionsdesigner som ägnar mycket av sin tid till att ta sig an sidoprojekt och annat smått och gott. Trivs bäst bland pappersark och skisspennor, men räds inte att ta mig an Xcode och knacka ihop lite iOS-appar.";
+        let experience = "Utbildningen jag sitter inne på går under namnet Digital design och Innovation. Studierna har lärt mig vikten av att ställa rätt frågor, pussla ihop utspridda historier till en enhetlig historia och att design inte bara handlar om att sätta färg och form. Jag har även erfarenhet när det kommer till utvecklingen av en fysisk produkt från tiden då jag blev accepterad till Science Park i Halmstads innovationsprogram. Det blev en ettårsstint, varpå jag sadlade om till designyrket och började extraknäcka som konsult innan jag fann min väg in på Dobus. ";
         let shortMemory = '”När jag bodde hemma var det alltid jag som fick sköta gräsklippningen, något som inte alltid var så uppskattat. Men sen kom Automower.”';
-        let longMemory = '”När jag bodde hemma var det alltid jag som fick sköta gräsklippningen, något som inte alltid var så uppskattat. Men sen kom Automower. Denna lilla robotgräsklippare förenklade mitt liv något sanslöst och den kommer därför alltid ha en säkrad plats i hjärtat."';
+        let longMemory = '”Jag försöker att se varje dag som ett nytt tillfälle att utvecklas inom det jag gör och kämpa mot de mål jag har. Är man inte intelligensmässigt på samma nivå som en visionär i Elon Musk, då kan man åtminstone försöka eftersträva hans ambitionsnivå.”';
         let experienceyear = "(2013—2017)";
 
-        const skills = ["Javascript", "Swift 3.0", "Sketch", "Sketch", "Sketch", "Sketch", "Sketch",];
+        const skills = ["Konceptgenerering", "Interaktionsdesign", "Design sprints", "Xcode", "Swift", "HTML", "CSS",];
         return (
             <div className="emplooyes">
                 <div className="hero is-fullheight">
