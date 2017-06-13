@@ -28,6 +28,7 @@ class Tim extends Component {
                             <Memories memory={shortMemory} 
                                     image={image}
                                     roleclass={roleclass}
+                                    name={name}
                             />
                         </div>
                     </div>

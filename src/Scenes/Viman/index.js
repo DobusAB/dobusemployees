@@ -11,14 +11,14 @@ class Viman extends Component {
         let image = "/viman.png";
         let name = "Truong Vi Man";
         let role = "Apputvecklare på Dobus";
-        let how = "Den stora delen av kunskapen ligger inom ramarna av interaktionsdesign, men på senare tid har det även tillkommit mycket fokus på programmering (och främst iOS-utveckling).";
-        let ido = "Programming av Android- och iOS-applikationer samt utveckling av RESTful APIs. DÄR har ni min specialitet, förutom allt som har med datorer att göra.";
+        let how = "Jag är en utvecklare som har arbetat med programmering inom olika områden. Mitt huvudfokus på jobbet är utveckling av system- och mobilapplikationer.";
+        let ido = "En programmerare som arbetar lika bra individuellt som i lag. Älskar att lösa problem och ta mig an nya utmaningar. Som konsult arbetar man med nya projekt ständigt, vilket jag tycker är kul. Det jag arbetar med främst är att utveckla Android- och iOS-applikationer tillsammans med RESTful APIs. Jag gör alltid mitt bästa för att få våra kunder nöjda.";
         let experience = "Programmerande interaktionsdesigner som ägnar mycket av sin tid till att ta sig an sidoprojekt och annat smått och gott. Trivs bäst bland pappersark och skisspennor, men räds inte att ta mig an Xcode och knacka ihop lite iOS-appar.";
-        let shortMemory = '”När jag bodde hemma var det alltid jag som fick sköta gräsklippningen, något som inte alltid var så uppskattat. Men sen kom Automower.”';
-        let longMemory = '”När jag bodde hemma var det alltid jag som fick sköta gräsklippningen, något som inte alltid var så uppskattat. Men sen kom Automower. Denna lilla robotgräsklippare förenklade mitt liv något sanslöst och den kommer därför alltid ha en säkrad plats i hjärtat."';
-        let experienceyear = "(2013—2017)";
+        let shortMemory = '”Mitt första minne av Husqvarna är en orange gräsklippare som mina släktingar hade för många år sedan. När jag var yngre brukade jag hjälpa de att klippa gräset.”';
+        let longMemory = '”Välj ett jobb som du älskar och du kommer aldrig att behöva arbeta en dag i hela ditt liv."';
+        let experienceyear = "(2011—2017)";
 
-        const skills = ["Javascript", "Swift 3.0", "Sketch"];
+        const skills = ["iOS", "Swift 3.0", "Android", "Java", "ASP.NET MVC", "C#", "Laravel", "PHP"];
         return (
             <div className="emplooyes">
                 <div className="hero is-fullheight">
@@ -28,6 +28,7 @@ class Viman extends Component {
                             <Memories memory={shortMemory} 
                                     image={image}
                                     roleclass={roleclass}
+                                    name={name}
                             />
                         </div>
                     </div>
