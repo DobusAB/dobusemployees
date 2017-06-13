@@ -12,26 +12,35 @@ $dark-grey: #686868;
 .dobusdescription {
     background: white;
 
-    
-
     h2 {
         color: $dark-grey;
         padding-top:10rem;
         font-size: 2rem;
         font-weight: bold;
         margin-bottom:1rem;
+        @media screen and (max-width: 600px) {
+            padding-top:1rem;
+            font-size:1.5rem;
+        }
     }
-
+    
     p{
         margin-bottom:4rem;
         color: $grey;
         line-height: 4rem;
         font-size: 3rem !important;
         font-weight: 200;
+         @media screen and (max-width: 600px) {
+            font-size: 1.5rem !important;
+            line-height: 3rem;
+        }
     }
 
     .greetings {
         padding-bottom:10rem;
+        @media screen and (max-width: 600px) {
+            padding-bottom:2rem;
+        }
         h4 {
             color:$dark-grey;
             font-size:1.5rem;

@@ -15,6 +15,10 @@ $pink: rgb(254, 116, 179);
         &.texts {
             display:inline;
         }
+        @media screen and (max-width: 600px) {
+            font-size:2rem;
+            margin-top:1rem;
+        }
     }
     .dobus-image {
         margin-top:4rem;

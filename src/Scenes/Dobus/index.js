@@ -35,6 +35,7 @@ class Dobus extends Component {
                     </div>
                 </div>
                 <div className="dobusdescription">
+                    <section className="section">
                     <div className="container">
                         <div className="columns">
                             <div className="column is-12">
@@ -54,6 +55,7 @@ class Dobus extends Component {
                             </div>
                         </div>
                     </div>
+                </section>
                 </div>
             </div>
         );
