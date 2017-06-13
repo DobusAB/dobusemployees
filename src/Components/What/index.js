@@ -4,6 +4,8 @@ const What = (props) => {
 
     return (
         <div className="whatweedoo fade-in four ">
+            <section className="section">
+            <div className="container">
             <div className="columns">
             <div className="column is-6">
                 <h2 className={props.roleclass}>Vad gör jag?</h2>
@@ -19,7 +21,9 @@ const What = (props) => {
                 <h2 className={props.roleclass}>Erfarenhet <span>{props.experienceyear}</span></h2>
                 <p>{props.experience}</p>
             </div>
-            </div>   
+            </div>
+            </div>
+            </section>
         </div>
     );
 }

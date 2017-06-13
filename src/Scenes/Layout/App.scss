@@ -214,7 +214,7 @@ p {
 }
 .first-memories {
     &.ux {
-         background: $orange;
+         background: $orange !important;
     }
     &.developer {
         background: $green;

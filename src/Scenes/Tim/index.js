@@ -32,7 +32,6 @@ class Tim extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="container">
                     <Skills name={name} 
                             role={role}
                             roleclass={roleclass}
@@ -45,7 +44,6 @@ class Tim extends Component {
                         experienceyear={experienceyear}
                         roleclass={roleclass}
                     />
-                </div>
                 <Footer memory={longMemory}
                         name={name}
                         role={role}
