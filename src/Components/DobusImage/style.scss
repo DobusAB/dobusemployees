@@ -18,18 +18,28 @@ $pink: rgb(254, 116, 179);
     }
     .dobus-image {
         margin-top:4rem;
-        img {
-            &.grow { 
-                transition: all .4s ease-in-out; 
+        div .photoholder {
+            //overflow: hidden;
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            &.inner-block {
+                position: absolute;
+                z-index: 9999;
+                display: inline-block;
             }
-            &.grow:hover { 
-                transform: scale(1.15);
+            img {
+                &.grow { 
+                    transition: all .4s ease-in-out; 
+                }
+                &.grow:hover { 
+                    transform: scale(1.15);
+                }
+                &.site {
+                    border-radius: 5px;
+                    box-shadow: 0 2px 30px rgba(171, 171, 171, 0.5);
+                }
             }
-            &.site {
-                border-radius: 5px;
-                box-shadow: 0 2px 30px rgba(171, 171, 171, 0.5);
-            }
-            
         }
     }
 
