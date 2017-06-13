@@ -11,11 +11,11 @@ class Johan extends Component {
         let image = "/johan.png";
         let name = "Johan Sveningsson";
         let role = "VD & Utvecklare på Dobus";
-        let how = "VD och grundare med en passion för allt som har att göra med utveckling. Påbörjade min karriär med datavisualiserings till att bygga Appar & API:er. Man kan säga att jag är en full-stack utvecklare, med andra ord har jag koll på mycket ;) ";
-        let ido = "Jag är lösningsorienterad och oerhört social och ÄLSKAR att driva företag, hade inte klarat mig utan det. Med en bakgrund i aplin skidåkning och även golf har jag lärt mig att man kommer långt med sitt tålamod. VD och grundare med en passion för allt som har att göra med att driva företag.";
-        let experience = "Påbörjade min IT karriär när jag gick på gymnasiet, då jag drev UF företag och blev 2a på bästa webb, påbörjade sedan en utbildning i Halmstad Informatik programmet med inriktning webb. Programmerade extremt mycket på min lediga tid och fick snabbt jobb efter 6 månader av studier. Jag har drivit Företaget Dobus nu i 2.5 år. Har även tävlat i alpint och spelar gärna golf (när vädret behagar)";
+        let how = "Påbörjade min karriär med datavisualisering för att sedan gå över till att bygga Appar & API:er. Numera kan man dock säga att jag är en full stack-utvecklare som har en väldigt bred koll när det kommer till programmering!";
+        let ido = "Jag är lösningsorienterad, oerhört social och jag ÄLSKAR verkligen att driva företag. Hade inte klarat mig utan det. Genom min bakgrund inom alpin skidåkning och golf har jag lärt mig att man kommer långt med sitt tålamod. I övrigt är jag en VD och grundare med en passion för allt som har att göra med att driva företag.";
+        let experience = "Påbörjade min IT karriär när jag gick på gymnasiet, då jag drev ett UF-företag och blev 2:a på bästa webb. Därefter påbörjades sedan en utbildning i Halmstad på Informatikprogrammet med inriktning Webb. Det blev extremt mycket programmering på min lediga tid och jag fick snabbt jobb efter ca. sex månader av studier. Jag har nu drivit Dobus i ungefär två och ett halvt år.";
         let shortMemory = '”När jag bodde hemma var det alltid jag som fick sköta gräsklippningen, något som inte alltid var så uppskattat. Men sen kom Automower.”';
-        let longMemory = '”Det bästa med att driva och arbeta på Dobus är att få driva projekt framåt och att få möjligheten att digitalisera världen och framförallt företag."';
+        let longMemory = '”Det bästa med att driva och arbeta på Dobus är chansen att få driva projekt framåt och att få möjligheten att digitalisera världen och framförallt företag."';
         let experienceyear = "(2013—2017)";
 
         const skills = ["Javascript", "Swift 3.0", "Sketch"];
