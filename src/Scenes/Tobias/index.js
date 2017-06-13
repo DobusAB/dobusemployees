@@ -15,7 +15,7 @@ class Tobias extends Component {
         let ido = "Bakom ridåerna finner ni mig då min utmärkande egenskap är backend-utveckling, då jag lägger mina vakna timmar till att bygga bra och skalbara API:er. Jag har även kunskaper för att kunna skapa Android appar.";
         let experience = "Högskoleingenjör inom datateknik på Lunds Tekniska Högskola och Serveradministration i bla. Linux. Studerade även ett halvår i Kina som utbytesstudent då jag fick lära mig allt från kinesiska till en annan kultur. Jag har även varit med i landslaget i rugby.";
         let shortMemory = '”Mitt första minne med husqvarna var när jag fick hjälpa till med ogräset och då använde vi en grästrimmer.”';
-        let longMemory = '”读万卷书不如行万里路 [讀萬卷書不如行萬里路" ("Reading ten thousand books is not as useful as travelling ten thousand miles.")';
+        let longMemory = '”读万卷书不如行万里路" ("Reading ten thousand books is not as useful as travelling ten thousand miles.")';
         let experienceyear = "(2013—2017)";
 
         const skills = ["Javascript", "HTML", "CSS", "Laravel", "C#", "JAVA", "Android", "Android studio", "Linux", "Servers"];
