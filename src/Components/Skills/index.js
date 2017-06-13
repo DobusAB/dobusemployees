@@ -5,10 +5,10 @@ const Skills = (props) => {
     return (
         <div className="skills  fade-in four ">
             <div className="columns">
-                <div className="column is-4">
-                <img src={props.image} />
+                <div className="column is-4-mobile">
+                <img className="image" src={props.image} />
                 </div>
-                <div className="column is-7">
+                <div className="column is-7-mobile">
                 <h2>{props.name}</h2>
                 <h3 className={props.roleclass}>{props.role}</h3>
                 <h4>Mina huvudskills</h4>

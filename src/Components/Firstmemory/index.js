@@ -5,7 +5,7 @@ const Memories = (props) => {
     return (
         <div className="memory">
             <div className="columns">
-                <div className="column is-12">
+                <div className="column is-12-mobile">
                 <h3 className={"fade-in one " + props.roleclass }>Vilket är ditt första minne av Husqvarna?</h3>
                 </div>
             </div>
