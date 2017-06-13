@@ -15,7 +15,7 @@ class Johan extends Component {
         let ido = "Jag är lösningsorienterad, oerhört social och jag ÄLSKAR verkligen att driva företag. Hade inte klarat mig utan det. Genom min bakgrund inom alpin skidåkning och golf har jag lärt mig att man kommer långt med sitt tålamod. I övrigt är jag en VD och grundare med en passion för allt som har att göra med att driva företag.";
         let experience = "Påbörjade min IT karriär när jag gick på gymnasiet, då jag drev ett UF-företag och blev 2:a på bästa webb. Därefter påbörjades sedan en utbildning i Halmstad på Informatikprogrammet med inriktning Webb. Det blev extremt mycket programmering på min lediga tid och jag fick snabbt jobb efter ca. sex månader av studier. Jag har nu drivit Dobus i ungefär två och ett halvt år.";
         let shortMemory = '”När jag bodde hemma var det alltid jag som fick sköta gräsklippningen, något som inte alltid var så uppskattat. Men sen kom Automower.”';
-        let longMemory = '”Det bästa med att driva och arbeta på Dobus är chansen att få driva projekt framåt och att få möjligheten att digitalisera världen och framförallt företag."';
+        let longMemory = '”Det bästa med att driva och arbeta på Dobus är chansen att få driva projekt framåt och att få möjligheten att digitalisera världen (och framförallt företag.)"';
         let experienceyear = "(2013—2017)";
 
         const skills = ["Javascript", "Swift 3.0", "Sketch"];
