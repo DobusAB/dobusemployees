@@ -39,7 +39,7 @@ class Dobus extends Component {
                     <div className="container">
                         <div className="columns">
                             <div className="column is-12">
-                                <h2>En gång en webbyrå, inte alltid en webbyrå.</h2>
+                                <h2>En gång en webbyrå, nu en digital byrå.</h2>
                                 <p>Dobus grundades år 2015 som en webbyrå med utvecklarkompetens endast. I dag är Dobus en snabbt växande <span className="yellow strong">digital byrå</span> med fokus på <span className="yellow strong">mycket mer än bara webb.</span>  Vi skräddarsyr och designar helhetslösningar, för att därefter påbörja en utvecklingsprocess där kundkommunikation värdesätts högt.  </p>
                                 <p>Nyckelorden är <span className="yellow strong">användarcentrerad</span> och <span className="yellow strong">iterativ utveckling</span>,  saker som vi tror gör skillnaden när det kommer till att nå ett bra resultat.</p>
                                 <div className="greetings">

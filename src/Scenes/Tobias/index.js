@@ -14,7 +14,7 @@ class Tobias extends Component {
         let how = "Att vara rastlös är det värsta jag vet och därför ser jag alltid till att jobba flitigt med programmeringen både inom webbutveckling och Android utveckling. När jag har ett problem framför mig är jag inte den som ger upp utan jag tar tjuren i hornen.";
         let ido = "Bakom ridåerna finner ni mig då min utmärkande egenskap är backend-utveckling, då jag lägger mina vakna timmar till att bygga bra och skalbara API:er. Jag har även kunskaper för att kunna skapa Android appar.";
         let experience = "Högskoleingenjör inom datateknik på Lunds Tekniska Högskola och Serveradministration i bla. Linux. Studerade även ett halvår i Kina som utbytesstudent då jag fick lära mig allt från kinesiska till en annan kultur. Jag har även varit med i landslaget i rugby.";
-        let shortMemory = '”Mitt första minne med husqvarna var när jag fick hjälpa till med ogräset och då använde vi en grästrimmer.”';
+        let shortMemory = '”Mitt första minne med Husqvarna var när jag fick hjälpa till med ogräset och då använde vi en grästrimmer. Trots bra verktyg kunde väl insatsen ha varit”';
         let longMemory = '”读万卷书不如行万里路" ("Reading ten thousand books is not as useful as travelling ten thousand miles.")';
         let experienceyear = "(2013—2017)";
 
