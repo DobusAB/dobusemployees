@@ -31,8 +31,7 @@ class Alice extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="container">
-                    <Skills name={name} 
+                <Skills name={name} 
                             role={role}
                             roleclass={roleclass}
                             image={image}
@@ -44,7 +43,6 @@ class Alice extends Component {
                         experienceyear={experienceyear}
                         roleclass={roleclass}
                     />
-                </div>
                 <Footer memory={longMemory}
                         name={name}
                         role={role}

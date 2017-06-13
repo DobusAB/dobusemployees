@@ -19,7 +19,7 @@ const Footer = (props) => {
                     </div>
                 </div>
                 <div className="columns">
-                    <div className="column is-6-mobile">
+                    <div className="column is-12-mobile">
                         <div className="is-flex">
                         <img  className="image is-64x64" src={props.image} />
                         <div className="texts">
