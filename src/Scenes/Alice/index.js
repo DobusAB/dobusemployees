@@ -18,7 +18,7 @@ class Alice extends Component {
         let longMemory = '"Utsätt dig för möjligheten att ha tur, man vet aldrig hur kul bra det kan bli."';
         let experienceyear = "(2014—2017)";
 
-        const skills = ["Marknadsföring", "SEO", "Kommunikation", "Copywriter"];
+        const skills = ["Marknadsföring", "SEO", "Kommunikation", "Copywriter", "Service"];
         return (
             <div className="emplooyes">
                 <div className="hero is-fullheight">
