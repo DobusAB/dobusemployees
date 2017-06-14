@@ -10,7 +10,7 @@ import Dobus from './Scenes/Dobus';
 
 
 export const routes = (
-	<Router history={browserHistory}>
+	<Router history={browserHistory} onUpdate={() => window.scrollTo(0, 0)}>
 		<Route component={App}>
 			<Route path="/" component={Dobus} />
 			<Route path="/tim" component={Tim}/>
