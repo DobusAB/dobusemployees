@@ -22,7 +22,9 @@ $pink: rgb(254, 116, 179);
     }
     .dobus-image {
         margin-top:4rem;
-
+            .grow:hover {
+                opacity: 0.3;
+            }
             /* img {
                 z-index: 999 !important;
                 &.grow { 
@@ -45,6 +47,7 @@ $pink: rgb(254, 116, 179);
                     }
                     .grow:hover { 
                         transform: scale(1.15);
+                        //opacity: 0.3;
                     }
                     &.site {
                         border-radius: 5px;
