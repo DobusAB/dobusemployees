@@ -5,7 +5,7 @@ $purple: rgb(176, 118, 185);
 $pink: rgb(254, 116, 179);
 
 .dobus {
-    //margin-top:5rem;
+    padding-top:5rem;
     h2 {
         background: -webkit-linear-gradient(left, $yellow ,$orange, $purple); /* For Safari 5.1 to 6.0 */
         -webkit-background-clip: text;
