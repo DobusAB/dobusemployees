@@ -308,6 +308,11 @@ p {
     font-weight: bold;
 }
 
+.no-margin {
+    padding-top:0 !important;
+    padding-top:2rem !important;
+}
+
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
 @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
