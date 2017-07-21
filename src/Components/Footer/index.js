@@ -10,10 +10,10 @@ const Footer = (props) => {
             <div className="container">
                 <div className="columns">
                     <div className="column is-12">
-                        <h2>Mitt livsmotto</h2>
+                        <h2>Kontakta gärna mig!</h2>
                     </div>
                 </div>
-                <div className="columns">
+                <div className="columns emailphone">
                     <div className="column is-8">
                         <p>{props.memory}</p>
                     </div>

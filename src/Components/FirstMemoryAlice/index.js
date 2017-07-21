@@ -6,7 +6,7 @@ const MemoriesAlice = (props) => {
         <div className="memory">
             <div className="columns">
                 <div className="column is-12-mobile">
-                <h3 className={"fade-in one " + props.roleclass }>Vilket är ditt första minne av Husqvarna?</h3>
+                <h3 className={"fade-in one " + props.roleclass }>Vilket är ditt livsmotto?</h3>
                 </div>
             </div>
             <div className="columns">
@@ -18,7 +18,7 @@ const MemoriesAlice = (props) => {
                 <div className="column is-6">
                     <div className="is-flex">
                     <img  className="image is-64x64 fade-in three" src={props.image} />
-                    <p className="citat--description fade-in four">Scrolla ner för att läsa mer om {props.name} och hur hon kan bidra till <span className={'highlighted ' + props.roleclass }>Husqvarnas</span> digitala framgång. </p>
+                    <p className="citat--description fade-in four">Scrolla ner för att läsa mer om {props.name} och hur hon kan bidra till <span className={'highlighted ' + props.roleclass }>ditt företags</span> digitala framgång. </p>
                     </div>
                 </div>
             </div>
