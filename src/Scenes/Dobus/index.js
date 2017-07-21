@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import DobusImage from '../../Components/DobusImage';
+import {Link} from 'react-router';
 import './style.scss';
 
 class Dobus extends Component {
@@ -51,11 +52,11 @@ class Dobus extends Component {
                                 <div className="greetings">
                                     <h4>Hälsningar från gänget på <span className="strong">Dobus</span>.</h4>
                                     <div className="is-flex">
-                                        <img className="image is-48x48" src="/johan.png" />
-                                        <img className="image is-48x48" src="/tim.png" />
-                                        <img className="image is-48x48" src="/viman.png" />
-                                        <img className="image is-48x48" src="/alice.png" />
-                                        <img className="image is-48x48" src="/tobias.png" />
+                                        <Link to="johan"><img className="image is-48x48" src="/johan.png" /> </Link>
+                                         <Link to="tim"><img className="image is-48x48" src="/tim.png" /> </Link>
+                                         <Link to="viman"><img className="image is-48x48" src="/viman.png" /> </Link>
+                                         <Link to="alice"><img className="image is-48x48" src="/alice.png" /> </Link> 
+                                         <Link to="tobias"><img className="image is-48x48" src="/tobias.png" /> </Link>
                                     </div>
                                 </div>
                             </div>
