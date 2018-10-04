@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { Store } from './store';
 import {render} from 'react-dom';
 import { routes } from './router';
-import 'bulma/css/bulma.css';
+import 'bulma/css/bulma.css'; 
 
 render((
 	<Provider store={Store}>

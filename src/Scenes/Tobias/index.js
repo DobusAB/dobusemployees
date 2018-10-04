@@ -10,7 +10,7 @@ class Tobias extends Component {
         let roleclass = "web";
         let image = "/emma.png";
         let name = "Emma felsing";
-        let role = "PR & Marknadsföring";
+        let role = "PR & Marknadsföring"; 
         let how = "Att vara rastlös är det värsta jag vet och därför ser jag alltid till att jobba flitigt med programmeringen både inom webbutveckling och Android utveckling. När jag har ett problem framför mig är jag inte den som ger upp utan jag tar tjuren i hornen.";
         let ido = "Bakom ridåerna finner ni mig då min utmärkande egenskap är backend-utveckling, då jag lägger mina vakna timmar till att bygga bra och skalbara API:er. Jag har även kunskaper för att kunna skapa Android appar.";
         let experience = "Högskoleingenjör inom datateknik på Lunds Tekniska Högskola och Serveradministration i bla. Linux. Studerade även ett halvår i Kina som utbytesstudent då jag fick lära mig allt från kinesiska till en annan kultur. Jag har även varit med i landslaget i rugby.";
@@ -25,7 +25,7 @@ class Tobias extends Component {
         const skills = ["Javascript", "HTML", "CSS", "Laravel", "C#", "JAVA", "Android", "Android studio", "Linux", "Servers"];
         return (
             <div className="emplooyes">
-                <div className="hero is-fullheight">
+                <div className="hero is-large">
 
                     <div className="hero-body">
                     
