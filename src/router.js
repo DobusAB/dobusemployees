@@ -12,12 +12,12 @@ import Dobus from './Scenes/Dobus';
 export const routes = (
 	<Router history={browserHistory} onUpdate={() => window.scrollTo(0, 0)}>
 		<Route component={App}>
-			<Route path="/" component={Dobus} />
-			<Route path="/tim" component={Tim}/>
+			<Route path="/" component={Tobias} />
+			{/* <Route path="/tim" component={Tim}/>
 			<Route path="/johan" component={Johan} />
 			<Route path="/viman" component={Viman} />
 			<Route path="/alice" component={Alice} />
-			<Route path="/tobias" component={Tobias} />
+				<Route path="/tobias" component={Tobias} /> */}
 
 		</Route>
 	</Router>

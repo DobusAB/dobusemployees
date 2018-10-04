@@ -17,7 +17,8 @@ const Memories = (props) => {
             <div className="columns">
                 <div className="column is-6">
                     <div className="is-flex">
-                    <img  className="image is-64x64 fade-in three" src={props.image} />
+                        
+                    <img  className="image is-96x96 is-rounded" src={props.image} />
                     <p className="citat--description fade-in four">Scrolla ner för att läsa mer om {props.name} och hur han kan bidra till <span className={'highlighted ' + props.roleclass }>ditt företags</span> digitala framgång. </p>
                     </div>
                 </div>
