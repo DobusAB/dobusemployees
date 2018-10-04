@@ -25,7 +25,7 @@ class Tobias extends Component {
         const skills = ["Javascript", "HTML", "CSS", "Laravel", "C#", "JAVA", "Android", "Android studio", "Linux", "Servers"];
         return (
             <div className="emplooyes">
-                <div className="hero is-large">
+                <div className="hero is-fullheight">
 
                     <div className="hero-body">
                     
